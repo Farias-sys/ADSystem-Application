@@ -1,9 +1,7 @@
 # ADSystem - Gestão eficiente e prática
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Farias-sys/Application-ADSystem)
-![GitHub language count](https://img.shields.io/github/languages/count/Farias-sys/Application-ADSystem)
+![GitHub repo size](https://img.shields.io/github/repo-size/Farias-sys/ADSystem-Application)
+![GitHub language count](https://img.shields.io/github/languages/count/Farias-sys/ADSystem-Application)
 
 <img src="adsystem.png" alt="ADSystem logo">
 
