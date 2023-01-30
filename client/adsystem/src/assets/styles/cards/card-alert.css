@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.card-alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 6px;
+    background: #f9f9f9;
+}
+  
+.card-name {
+    margin-left: 20px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.card-flex {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.card-actions {
+    margin-right: 2rem;
+}
+
+.card-box {
+    height: 50px;
+    width: 4px;
+}
+  

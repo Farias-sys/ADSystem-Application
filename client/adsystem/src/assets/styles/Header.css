@@ -1,0 +1,112 @@
+.header {
+    width: 100vw;
+    height: 7rem;
+  
+    display: flex;
+    align-items: center;
+  
+    background-color: #3c7bfa;
+  
+    box-shadow: 0 2px 20px #000000;
+}
+
+#logo--landing {
+    width: 15rem;
+    height: 6.25rem;
+  
+    margin: 0 0 0 1rem;
+  }
+
+/* Profile section ========================================== */
+
+.profile-section-container{
+    margin-left: 62vw;
+    
+    background-color: white;
+    width: 300px;
+    height: 90px;
+
+    box-shadow: 0 2px 5px black;
+
+    border-radius: 10px;
+
+    display: flex;
+}
+
+.img-container{
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+
+    width: 65px;
+    max-width: 65px;
+    height: 65px;
+    max-height: 65px;
+
+    border-radius: 50px;
+    box-shadow: 0 2px 5px black;
+
+    background-color: gray;
+
+}
+
+.img-container:hover{
+    box-shadow: none;
+}
+
+.profile-section-content{
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+
+}
+
+.profile-section-text{
+    width: 190px;
+    height: 45px;
+
+    margin-right: 0.5rem;
+
+    border: 1px dotted #000000;
+}
+
+
+h2.profile-section{
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+    color: black;
+    font-size: 14px;
+}
+
+#username{
+    font-size: 18px;
+    margin-top: 0.1rem;
+}
+
+
+button.profile-section{
+    margin-top: 0.3rem;
+
+    color: white;
+    background-color:#3c7bfa;
+    width: 90%;
+    height: 16px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 5px black;
+
+}
+
+.img-avatar{
+    overflow: auto;
+    width: 65px;
+    max-width: 65px;
+    height: 65px;
+    max-height: 65px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50px;
+
+
+}

@@ -1,0 +1,90 @@
+.container.graphic{
+    height: 250px;
+    width: 78vw;
+
+    background-color: white;
+    box-shadow: 0 1px 10px #666666;
+}
+
+.container-charts{
+    display: flex;
+}
+
+.container-orange{
+    position: absolute;
+    height: 250px;
+    width: 10px;
+
+    background-color: orange;
+}
+
+.container-content.graphics{
+    margin-left: 1rem;
+}
+
+.container-content.graphics.chart{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+div.text-expenses-card{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+
+    text-align: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+    background-color: white;
+
+    box-shadow: 0 2px 5px black;
+    border-radius: 10px;
+}
+
+div.text-expenses-container{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+h2#total-expenses{
+    font-size: 42px;
+}
+h3#total-expenses{
+    font-size: 34px;
+    color: black;
+    margin-right: 0.5rem;
+}
+
+h2#today-date{
+    margin-top: 0.5rem;
+}
+
+div.expenses-container-button{
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 135px;
+    height: 45px;
+
+    border-radius: 5px;
+
+    padding-top: 0.4rem;
+
+    background-color:#3c7bfa;
+}
+
+div.expenses-container-button:hover{
+    box-shadow: 0 2px 5px black;
+
+}
+
+#see-transactions{
+    color: white!important;
+}

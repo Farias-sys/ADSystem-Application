@@ -1,0 +1,139 @@
+.container-patern-box {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+.container {
+  display: flex;
+  flex-direction: column;
+  height:75vh;
+  width: 78vw;
+
+  background-color: white;
+  box-shadow: 0 1px 10px #666666;
+  margin: 35px 60px 0 30px;
+
+  z-index: 1;
+}
+
+.container.alerts{
+  height: 40vh;
+}
+
+.box-container{
+  max-height: 70vh;
+}
+
+.container.stock{
+  height:70vh;
+  width: 60vw;
+}
+
+.container-header {
+  height: 25px;
+
+  background-color: #c4c4c4;
+  text-align: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns{
+  display: flex;
+}
+
+
+.container-title {
+  margin-left: 1rem;
+
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+
+  display: flex;
+
+  align-items: center;
+
+  height: 100%;
+}
+
+.container-type-button {
+  background-color: #67C11F;
+  border-radius: 85px;
+  border: none;
+
+  font-size: 14px;
+  color: white;
+
+  margin-right: 9px;
+
+  width: 100px;
+  height: 20px;
+
+  cursor: pointer;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.print-btn{
+  background-color: rgba(255, 153, 0, 0.993) !important; 
+}
+
+.remove-btn{
+  background-color: red;
+}
+
+.container-blue {
+  position: absolute;
+  height: 75vh;
+  width: 10px;
+  background-color: #4b71be;
+}
+
+.container-blue.stock{
+  height: 70vh;
+}
+
+.container-blue.alerts{
+  height: 40vh;
+}
+
+.container-blue-sidebox{
+  position: absolute;
+  height: 20.3vh;
+  width: 10px;
+  background-color: #4b71be;
+}
+
+.insert-modal{
+  margin-top: 6rem;
+}
+
+.insert-modal-body{
+  background-color: none !important;
+  padding: 0 !important;
+}
+
+.container-table.alerts{
+  max-height: 36.5vh;
+  overflow: auto;
+}
+
+/*Sideboxes =============================*/
+
+.container.sidebox{
+  margin-left:auto;
+  justify-content: space-between;
+
+  width: 16vw;
+  height: 29%;
+}

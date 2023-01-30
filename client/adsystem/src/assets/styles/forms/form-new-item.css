@@ -1,0 +1,135 @@
+:root{
+	--blue: #3c7bfa;
+	--green: #11c911;
+	--red: #ce0606;
+}
+
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 100%;
+	padding: 16px;
+    border-radius: 10px;
+}
+.form-style-6 h1{
+	background: var(--blue);
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px var(--blue);
+	padding: 3%;
+	border: 1px solid var(--blue);
+}
+
+.form-style-6.disabled input {
+	background-color: #555;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #3c7bfa;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+	text-align: center;
+}
+
+.form-style-6 input[type="submit"].add{
+	background-color: var(--green);
+}
+
+.form-style-6 input[type="submit"].remove{
+	background-color: var(--red);
+}
+
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #4175df;
+}
+
+.form-style-6 input[type="submit"].add:hover{
+	background-color: #0df70d;
+}
+
+.form-style-6 input[type="submit"].remove:hover{
+	background-color: #fd1b1b;
+}
+
+.container-new-inputs-header{
+	display: flex;
+
+	text-align: center;
+	align-items: center;
+}
+
+button{
+	text-align: center;
+	margin-left: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+
+.container-new-inputs{
+	border: 1px solid black;
+
+	margin-bottom: 1rem;
+}
+
+.new-inputs{
+	display: flex;
+}
+
+
+
+h2{
+	color: #555;
+	margin-bottom: 0.2rem;
+}

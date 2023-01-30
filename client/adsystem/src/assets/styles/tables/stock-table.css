@@ -1,0 +1,31 @@
+.collapse-table-container{
+    width: 100%;
+    max-height: 66.5vh;
+    overflow-y: auto;
+}
+
+.collapse-main-table{
+    width: 100%;
+    padding: 0;
+}
+
+.collapse-main-head{
+    width: 100%;
+}
+
+.category-head{
+    width: 100%;
+}
+
+.box-no-data-return{
+    text-align: center;
+    font-style: italic;
+}
+
+button.modal-opener:hover{
+    color: #3c7bfa;
+}
+
+.bx.modal-opener:hover {
+    background-color: rgb(243, 243, 243);
+}
