@@ -1,0 +1,97 @@
+.main-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../assets/bacgroundImage.png);    
+    /* background-attachment: fixed; */
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-form {
+    width: 41.25em;
+    height: 391px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    overflow: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 24px;
+
+    overflow: hidden;
+}
+
+form input {
+    width: 504px;
+    height: 35px;
+
+    background-color: #C4C4C4;
+
+    margin: 0.8rem 0 1rem 0;
+
+    border: none;
+} 
+
+button {
+    margin-top: 1rem;
+
+    width: 150px;
+    height: 65px;
+
+    border-radius: 50px;
+    border: none;
+
+    text-align: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+
+    background-color: #3C7BFA;
+
+    cursor: pointer;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .base-form {
+        width: 20.313rem;
+        height: 18.75rem;
+    }
+
+    form {
+        font-size: 21px;
+    }
+
+    form input {
+        width: 275px;
+        height: 25px;
+    }
+
+    button {
+        width: 106px;
+        height: 46px;
+        font-size: 19px;
+    }
+}
