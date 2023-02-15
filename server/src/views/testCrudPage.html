@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="/styles/testPage/styles.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 id="title-text">Teste CRUD básico</h1>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <div class="div-title">
+                    <h2 id="div-title-text">Read das tabelas</h2>
+                </div>
+
+                <form action="">
+                    <div class="inputs">
+                    <div class="form-submit">
+                        <div class="btn-submit"> 
+                            <input type="submit" onclick="db.readInventory()" value="inventory" id="submit" name="submit" class="btnsubmit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+    const db = {
+        readInventory(){
+            db = inv.value
+
+            axios.post('dbops/readdynamicdatabase', {db})
+        }
+    }
+    </script>
+</html>
